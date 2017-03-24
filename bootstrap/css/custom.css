@@ -1,0 +1,116 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* 修正上方固定導航列 */
+body {
+    padding-top: 50px;
+}
+
+footer {
+    padding-top: 20px;
+}
+
+/* 文字垂直置中 */
+.text-vcenter {
+    position: relative;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    height:100vh;
+    background: rgba(0,0,0,0.3);
+}
+
+.text-vcenter h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+/* 拉大間距 */
+.top-bottom-pad {
+    padding: 70px 0;
+}
+
+.btn-about {
+    margin-top: 10%;
+}
+
+.about-content {
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.blur {
+    background-color: rgba(0, 0, 0, 0.3);
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -ms-filter: blur(1px);
+    -o-filter: blur(1px);
+    filter: blur(1px);
+}
+
+.session {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.home.bg {
+    background: url("../../img/img1.jpg") no-repeat center center fixed;
+    height: 100vh;
+    position: absolute;
+    width: 100vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#about {
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.about.bg {
+    background: url("../../img/img2.jpg") no-repeat center center fixed;
+    height: 100vh;
+    position: absolute;
+    width: 100vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#shows {
+    background: url("../../img/img3.jpg") no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.shows.bg {
+    background: url("../../img/img3.jpg") no-repeat center center fixed;
+    height: 100vh;
+    position: absolute;
+    width: 100vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
